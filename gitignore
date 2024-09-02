@@ -1,0 +1,43 @@
+# Ignora arquivos compilados em Python
+__pycache__/
+*.py[cod]
+
+# Ignora arquivos de ambientes virtuais
+venv/
+env/
+
+# Ignora arquivos de logs e temporários
+*.log
+*.tmp
+
+# Ignora arquivos de configuração do editor
+*.idea/
+*.vscode/
+
+# Ignora o arquivo de dependências, caso exista
+requirements.txt
+Enunciado
+# Enunciado do Projeto: Adição de Elemento a uma Lista
+
+## Objetivo
+
+O objetivo deste projeto é desenvolver um script em Python que permita ao usuário adicionar um elemento a uma lista e, em seguida, visualizar a lista atualizada. Esse exercício é útil para praticar o uso de listas, funções e a manipulação básica de dados em Python.
+
+## Descrição
+
+- Crie uma função `adicionar_elemento(lista, elemento)` que receba uma lista e um elemento como parâmetros. A função deve adicionar o elemento à lista.
+- Inicialize uma lista vazia.
+- Solicite ao usuário que insira um elemento.
+- Utilize a função `adicionar_elemento` para adicionar o elemento fornecido à lista.
+- Exiba a lista modificada.
+
+## Requisitos
+
+- O script deve ser escrito em Python.
+- A lista deve ser inicializada como uma lista vazia no início do script.
+- O script deve ler a entrada do usuário através do terminal.
+- Após a adição do elemento, o script deve exibir a lista atualizada.
+
+## Exemplo de Execução
+
+Digite um elemento para adicionar à lista: maçã Lista após adição do elemento: ['maçã']
